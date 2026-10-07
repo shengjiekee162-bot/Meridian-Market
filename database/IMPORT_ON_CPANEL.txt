@@ -1,0 +1,16 @@
+-- cPanel import helper
+-- 1. In phpMyAdmin, SELECT your database first:
+--    synergy1_keeshenjie_E-commerc_system
+-- 2. Import this file (or import ecommerce_marketplace.sql after deleting
+--    the CREATE DATABASE and USE lines below).
+--
+-- The two lines that break on many cPanel hosts are already removed here.
+-- After this header, paste / keep the rest of ecommerce_marketplace.sql
+-- starting from SET FOREIGN_KEY_CHECKS / DROP TABLE ...
+--
+-- Easier path: open ecommerce_marketplace.sql, delete ONLY these lines:
+--   CREATE DATABASE IF NOT EXISTS meridian_market ...
+--   USE meridian_market;
+-- Then import that file while your cPanel DB is selected.
+
+SELECT 'Open ecommerce_marketplace.sql, remove CREATE DATABASE and USE, then import into your selected cPanel database.' AS instruction;

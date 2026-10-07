@@ -1,0 +1,10 @@
+.env
+.env.cpanel
+logs/*.log
+logs/*
+!.gitkeep
+.DS_Store
+Thumbs.db
+desktop.ini
+tools/_db_ping.php
+tools/_*.php
